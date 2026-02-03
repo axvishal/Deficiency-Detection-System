@@ -1,0 +1,32 @@
+# Deficiency Detection System - Dependencies
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# PDF Processing
+pymupdf>=1.24.0
+pdfplumber>=0.10.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# AWS Bedrock
+boto3>=1.34.0
+botocore>=1.34.0
+
+# Database & Cache
+psycopg2-binary>=2.9.9
+redis>=5.0.0
+sqlalchemy>=2.0.25
+
+# Data Models & Validation
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Testing (optional)
+httpx>=0.26.0
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
